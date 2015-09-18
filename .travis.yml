@@ -13,4 +13,4 @@ sudo: false
 install:
   - python setup.py install
 script:
-  - python setup.py nosetests
+  - python setup.py test
