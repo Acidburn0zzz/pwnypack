@@ -64,7 +64,7 @@ setup(
     download_url='https://github.com/edibledinos/pwnypack/tarball/v%s' % __version__,
     setup_requires=['setuptools>=17.1'],
     install_requires=requires,
-    tests_require=['mock', 'coverage', 'pytest-cov', 'pytest'],
+    tests_require=['mock', 'coverage', 'pytest-cov', 'pytest>=2.7.3'],
     cmdclass = {'test': PyTest},
     entry_points={
         'console_scripts': [
